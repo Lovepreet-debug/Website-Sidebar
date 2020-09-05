@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Noticia+Text&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background:#232323;
+    color: white;
+}
+.sidebar-toggle{
+   position: sticky;
+   background-color: black;
+    left: 1301px;
+    top: 13px;
+    cursor: pointer;
+
+}
+.line{
+    width: 23px;
+    height: 4px;
+    background-color: antiquewhite;
+    margin: 4px;
+}
+aside{
+    transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 2s;
+}
+.sidebar{
+    position: fixed;
+    width: 497px;
+    height: 531px;
+    margin-top: -13px;
+    border: 2px solid rosybrown;
+    transition: all 1s;
+    background:#e5e5e7;
+    transform: translate(-100%);
+    
+    
+}
+.logo-btn{
+    position: relative;
+    left: 351px;
+    width: 47px;
+    height: 47px;
+    top: 4px;
+}
+.hide{
+    display: none;
+}
+.close{
+    width: 54px;
+    height: 55px;
+    top: -6px;
+    left: -5px;
+    position: relative;
+}
+.logo{
+    width: 89px;
+    position: relative;
+    top: 3px;
+    left: 15px;
+}
+.options{
+    
+}
+.opt-list{
+  list-style-type: none; 
+
+}
+.link{
+    text-decoration: none;
+    position: relative;
+    top: 32px;
+    color: rgb(236, 241, 241);
+    left: 25px;
+}
+.li{
+    height: 83px;
+    background-color: dimgrey;
+    margin-bottom: 2px;
+    margin-right: 6px;
+    font-family: 'Noticia Text', serif;
+
+}
+.media{
+    display: flex;
+    list-style-type: none;
+
+}
+.twitter-logo{
+    width: 42px;
+    position: relative;
+    top: 43px;
+    left: 18px;
+}
+/*.t{
+    width: 42px;
+    position: relative;
+    top: 43px;
+    left: 18px;
+
+}*/
+.facebook-logo{
+    width: 42px;
+    position: relative;
+    top: 43px;
+    left: 18px;
+}
+/*.f{
+    width: 42px;
+    position: relative;
+    top: 43px;
+    left: 18px;,
+}*/
+.insta-logo{
+    width: 42px;
+    position: relative;
+    top: 43px;
+    left: 18px;
+}
+/*.i{
+    width: 42px;
+    position: relative;
+    top: 43px;
+    left: 18px;   
+}*/
+.pint-logo{
+    width: 42px;
+    position: relative;
+    top: 43px;
+    left: 18px;
+}
+/*.p{
+    width: 42px;
+    position: relative;
+    top: 43px;
+    left: 18px;
+}*/
+.log{
+    margin-right: 20px;
+    margin-left: 23px;
+
+}
+.audio{
+    width: fit-content;
+    position: relative;
+    top: 186px;
+    left: 767px;
+    border: 2px solid red;
+}
+.open{
+    transform: translate(0);
+}
+.field{
+    display: table-caption;
+    border: 9px solid black;
+    position: relative;
+    left: 430px;
+    top: 500px;
+    background: limegreen;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.ball{
+    width: 69px;
+    top: 0px;
+    left: -6px;
+    position: absolute;
+    transition: all 1s;
+}
